@@ -19,6 +19,6 @@ export const SERVICE_FIELDS = [
   { id: 'description', label: 'Description' },
   { id: 'quantity', label: 'Qty' },
   { id: 'rate', label: 'Rate' },
-  { id: 'tax_rate', label: '%' },
+  { id: 'tax_rate', label: 'Tax' },
   { id: 'total', label: 'Total' },
 ];

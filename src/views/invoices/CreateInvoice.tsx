@@ -281,6 +281,7 @@ export const CreateInvoice = () => {
                       id={`services.${index}.rate`}
                       type='number'
                       min='0'
+                      step='.01'
                       register={{
                         ...register(`services.${index}.rate`, {
                           valueAsNumber: true,
